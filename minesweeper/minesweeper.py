@@ -105,6 +105,7 @@ class Sentence():
         """
         Returns the set of all cells in self.cells known to be mines.
         """
+        # We know a set of cells to be mines iff all of them are mines
         if len(self.cells) == self.count:
             return self.cells
 
@@ -112,6 +113,7 @@ class Sentence():
         """
         Returns the set of all cells in self.cells known to be safe.
         """
+        # We know a set of cells to be safe iff all of them are safe
         if self.count == 0:
             return self.cells
 
@@ -120,6 +122,7 @@ class Sentence():
         Updates internal knowledge representation given the fact that
         a cell is known to be a mine.
         """
+        #Remove the cell from knowledge and decrease the number of mines by 1
         if cell in self.cells:
             self.cells.discard(cell)
             self.count -= 1
@@ -129,6 +132,7 @@ class Sentence():
         Updates internal knowledge representation given the fact that
         a cell is known to be safe.
         """
+        #Remove the cell from knowledge
         if cell in self.cells:
             self.cells.discard(cell)
 
@@ -172,8 +176,8 @@ class MinesweeperAI():
         for sentence in self.knowledge:
             sentence.mark_safe(cell)
 
-    def nearby_cells(self, cell):
-        cells = set()
+    def get_neighbors(self, cell):
+        neighbors = set()
 
         for i in range(cell[0] - 1, cell[0] + 2):
             for j in range(cell[1] - 1, cell[1] + 2):
@@ -182,9 +186,9 @@ class MinesweeperAI():
                     continue
 
                 if 0 <= i < self.height and 0 <= j < self.width:
-                    cells.add((i, j))
+                    neighbors.add((i, j))
 
-        return cells
+        return neighbors
 
     def add_knowledge(self, cell, count):
         """
@@ -210,14 +214,14 @@ class MinesweeperAI():
             self.mark_safe(cell)
 
         # Get nearby cells
-        nearby = self.nearby_cells(cell)
+        neighbors = self.get_neighbors(cell)
 
         # Remove safe cells and moves made
-        nearby -= self.safes | self.moves_made
+        neighbors -= self.safes | self.moves_made
 
-        new_sentence = Sentence(nearby, count)
+        proposition = Sentence(neighbors, count)
 
-        self.knowledge.append(new_sentence)
+        self.knowledge.append(proposition)
 
         new_safes = set()
         new_mines = set()
@@ -241,7 +245,7 @@ class MinesweeperAI():
         for mine in new_mines:
             self.mark_mine(mine)
 
-        prev_sentence = new_sentence
+        prev_sentence = proposition
 
         new_inferences = []
 
