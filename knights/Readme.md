@@ -17,15 +17,17 @@ The Operators used are : <b> AND,OR,NOT,IMPLICATION</b> and <b>BICONDITIONAL</b>
 <ol>
 <li> <b>A</b>: We are both Knights</li>
 <li><b>B</b>:I am a Knight but A is a Knave</li>
+</ol>
 <br><br>
-Such a Statement is encoded as:<br> <i><b>And(
+Such a Statement is encoded as:
+<center><br> <i><b>And(
 <br>Or(AKnight,AKnave),
 <br>Or(Bknight,Bknave),
 <br>Implication(AKnave,Not(AKnight)),
 <br>Implication(BKnave,Not(BKnight)),
 <br>Biconditional(AKnight,And(AKnight,BKnight)),
 <br>Biconditional(BKnight,And(AKnave,BKnight))
-<br>)</i></b>
+  <br>)</i></b></center>
 <br>
 Where AKnight is True iff A is a Knight and AKnave is True iff A is a knave and so on.
 <br><br>
@@ -35,6 +37,7 @@ Where AKnight is True iff A is a Knight and AKnave is True iff A is a knave and 
 <li><i>Implication(AKnave,Not(AKnight)),Implication(BKnave,Not(BKnight))</i> - If A or B is not a Knight , they A or B must be Knave</li>
 <li><i>Biconditional(AKnight,And(AKnight,BKnight))</i> - The fact that A is a Knight and so is B must be either True or False Together. This represents A's Statement.</li>
 <li><i>Biconditional(BKnight,And(AKnave,BKnight))</i> - The fact that B is a Knight and A is a Knave must be True or false simultaneously. This represents B's Statement.</li>
+ </ul>
 <br><br><hr>
 <h3>Model Checking Algorithm:</h3>This Algorithm checks for all possible combinations of the two states(True/False) for each and every single variable in the Model.
 It then picks the statement where the above condition(called Knowledge) is True ans returns the result.
