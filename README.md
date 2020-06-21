@@ -11,4 +11,10 @@ Projects from CS50AI offered by Harvard
     <div>Game LOST!<br><img src='minesweeper/gameplay/Lost.png'></div>
     <br>
 </div>
+<div id='PageRank'>
+  <h2> PageRank: An Algorithm to decide page importance</h2><ul><li>Objective: Use a Markov Chain to decide the importance of a page based on a corpus of interlinked webpages</li></ul>
+  <br><br>
+  <div>Output for the three corpora given:<img src='pagerank/Output.png'></div>
+  <br>
+ </div>
   
