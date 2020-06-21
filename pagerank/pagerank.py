@@ -20,7 +20,7 @@ def main():
     print(f"PageRank Results from Iteration")
     for page in sorted(ranks):
         print(f"  {page}: {ranks[page]:.4f}")
-    print(corpus)
+    
 
 
 def crawl(directory):
