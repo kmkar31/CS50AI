@@ -57,8 +57,8 @@ The word which causes the least decrease in the domain sizes of the variable's n
 <br><br>
 <hr>
 <h2>Outputs</h2>
-<img src='/Outputs/Crossword 0/Crossword0.png'>
-<img src='/Outputs/Crossword 1/Crossword1.png'>
-<img src='/Outputs/Crossword 2/Crossword2_try3.png'>
-<img src='/Outputs/Crossword 2/Crossword2_try6.png'>
-<img src='/Outputs/Crossword 2/Crossword2_try9.png'>
+<img src='Outputs/Crossword 0/Crossword0.png'>
+<img src='Outputs/Crossword 1/Crossword1.png'>
+<img src='Outputs/Crossword 2/Crossword2_try3.png'>
+<img src='Outputs/Crossword 2/Crossword2_try6.png'>
+<img src='Outputs/Crossword 2/Crossword2_try9.png'>
