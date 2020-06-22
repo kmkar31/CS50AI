@@ -34,7 +34,7 @@ Projects from CS50AI offered by Harvard
  
  <h2><u>Crossword</u>: Solve the Crossword using given words and Structure</h2><ul><li>Objective: Use BackTracking Algorithm to determine the solution to the crossword if present</li></ul>
   <br><br>
-  <div>Solved Crossword 1:<br><img src='crossword/Outputs/Crossword 2/Crossword2_try2.png'></div>
+  <div>Solved Crossword 1:<br><img src='crossword/Outputs/Crossword 1/Crossword1.png'></div>
   <br>
  </div>
  <hr>
