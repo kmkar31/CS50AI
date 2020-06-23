@@ -30,4 +30,4 @@ The &epsilon;-Greedy approach leads the algorithm to make random move so that mo
 ## Output
 <br>
 <b>GamePlay</b> 
-<img src='nim/GamePlay/GamePlay_img.png'>
+<img src='GamePlay/GamePlay_img.png'>
