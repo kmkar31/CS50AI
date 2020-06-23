@@ -39,4 +39,11 @@ Projects from CS50AI offered by Harvard
  </div>
  <hr>
  
+ <h2><u>NIM</u>:Beat a human at a game of NIM</h2><ul><li>Objective: Use Q-Learning Algorithm to determine the best approach to a game </li></ul>
+  <br><br>
+  <div>GamePlay:<br><img src='nim/GamePlay/GamePlay_img.png'></div>
+  <br>
+ </div>
+ <hr>
+ 
   
