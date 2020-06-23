@@ -39,7 +39,7 @@ Projects from CS50AI offered by Harvard
  </div>
  <hr>
  
- <h2><u>Shopping</u>:Predict which customers buy products and which customers only glance through the products</h2><ul><li>Objective:Use the k-NearestNeighbour Algorithm to predict which customers proceed to checkout or which customers just browse through the products</li></ul>
+ <h2><u>Shopping</u>:<br>Predict which customers buy products and which customers only glance through the products</h2><ul><li>Objective:Use the k-NearestNeighbour Algorithm to predict which customers proceed to checkout or which customers just browse through the products</li></ul>
   <br><br>
   <div>Solved Crossword 1:<br><img src='shopping/Outputs/output.png'></div>
   <br>
@@ -47,7 +47,7 @@ Projects from CS50AI offered by Harvard
  <hr>
  
  
- <h2><u>NIM</u>:Beat a human at a game of NIM</h2><ul><li>Objective: Use Q-Learning Algorithm to determine the best approach to a game </li></ul>
+ <h2><u>NIM</u>:Beat a Human at a game of NIM</h2><ul><li>Objective: Use Q-Learning Algorithm to determine the best approach to a game </li></ul>
   <br><br>
   <div>GamePlay:<br><img src='nim/GamePlay/GamePlay_img.png'></div>
   <br>
