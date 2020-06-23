@@ -3,7 +3,7 @@ Projects from CS50AI offered by Harvard
 
 
 <div id='KandK'>
-  <h2><u>Knights</u> : A game of Knights vs Knaves.</h2> <ul><li>Objective: Knights always tell the truth and knaves always lie. Determine who is    a knight and who isn't</li></ul>
+  <h2><u>Knights</u> : A game of Knights vs Knaves.</h2> <ul><li>Objective: Knights always tell the truth and knaves always lie. Determine who is a knight and who isn't</li></ul>
 </div>
 <hr>
 
@@ -38,6 +38,14 @@ Projects from CS50AI offered by Harvard
   <br>
  </div>
  <hr>
+ 
+ <h2><u>Shopping</u>:Predict which customers buy products and which customers only glance through the products</h2><ul><li>Objective:Use the k-NearestNeighbour Algorithm to predict which customers proceed to checkout or which customers just browse through the products</li></ul>
+  <br><br>
+  <div>Solved Crossword 1:<br><img src='shopping/Outputs/output.png'></div>
+  <br>
+ </div>
+ <hr>
+ 
  
  <h2><u>NIM</u>:Beat a human at a game of NIM</h2><ul><li>Objective: Use Q-Learning Algorithm to determine the best approach to a game </li></ul>
   <br><br>
