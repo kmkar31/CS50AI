@@ -8,8 +8,8 @@
 The Data is available as .ppm files split according to their classes. The Images are resized, converted into numpy arrays and assigned a label.
 The GTRSB(German Traffic Sign Benchmark) dataset is used which contains over 50,000 images.
 
-<img src='Outputs/Ex_img_1.png'>
-<img src='Outputs/Ex_img_2.png'>
+<img src='Outputs/gstrb_ex.png'>
+<img src='Outputs/gstrb_ex2.png'>
 
 <hr>
 
