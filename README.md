@@ -54,4 +54,11 @@ Projects from CS50AI offered by Harvard
  </div>
  <hr>
  
+ <h2><u>Traffic</u>:Identify Traffic Signs</h2><ul><li>Objective: Use Convolutional Neural Networks to recognise images of traffic signs</li></ul>
+  <br><br>
+  <div>Accuracy:<br><img src='traffic/Outputs/10_Epoch_Train.png'></div>
+  <br>
+ </div>
+ <hr>
+ 
   
