@@ -29,6 +29,6 @@ The AI takes in an corpus of text files and carries out the following actions:
 
 ## Outputs:
 
-<img src='questions/Outputs/AI_ML_NN.png'>
+<img src='Outputs/AI_ML_NN.png'>
 <br><br>
-<img src='questions/Outputs/NB_NLP_RL.png'>
+<img src='Outputs/NB_NLP_RL.png'>
