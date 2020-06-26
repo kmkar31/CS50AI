@@ -32,9 +32,9 @@ NLTK also has the ability to reresent these trees in a more graphical manner.
 <br>
 For a Sentence: <b>I had a country walk on Thursday and came home in a dreadful mess.</b><br>
 <br>
-<img src='parser/Outputs/Drawn_Outputs/sentence_9_draw.png'>
+<img src='Outputs/Drawn_Outputs/sentence_9_draw.png'>
 <br><br>
 For a Sentence: <b>I had a little moist red paint in the palm of my hand.</b><br>
 The possible Trees are :<br><br>
-<img src='parser/Outputs/Terminal_Outputs/sentence_10.png'>
+<img src='Outputs/Terminal_Outputs/sentence_10.png'>
 <br><br>
