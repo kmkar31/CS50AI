@@ -68,4 +68,11 @@ Projects from CS50AI offered by Harvard
  </div>
  <hr>
  
+ <h2><u>Questions</u>:Query-Answering AI</h2><ul><li>Objective:Train an AI on a corpus of text to answer queries about that corpus</li></ul>
+  <br><br>
+  <div>Some Queries<br><img src='questions/Outputs/NB_NLP_RL.png'></div>
+  <br>
+ </div>
+ <hr>
+ 
   
