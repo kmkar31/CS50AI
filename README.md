@@ -61,4 +61,11 @@ Projects from CS50AI offered by Harvard
  </div>
  <hr>
  
+ <h2><u>Parser</u>:Sentence-Tree Representation</h2><ul><li>Objective: Use NLTK to represent a sentence as a tree</li></ul>
+  <br><br>
+  <div>Tree of Sentence 5<br><img src='parser/Outputs/Terminal_Outputs/sentence_5.png'></div>
+  <br>
+ </div>
+ <hr>
+ 
   
