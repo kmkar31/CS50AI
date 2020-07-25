@@ -18,5 +18,5 @@ The reward is recursively calculated as the <b>v = max(v, minValue(result(board,
 Output:
 <br><br>
 
-![Game1](tictactoe/g1.png)
-![Game2](tictactoe/g2.png)
+![Game1](g1.png)
+![Game2](g2.png)
