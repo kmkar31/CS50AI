@@ -1,7 +1,15 @@
 # CS50AI
 Projects from CS50AI offered by Harvard
 
-
+<h2><u>Degrees</u>: Identify an indirect/direct relationship between two actors</h2><ul><li>Objective: Use a Breadth-First-Search to find relationships between actors</li></ul>
+ <a href='https://github.com/kmkar31/CS50AI/tree/master/degrees'>Continue to Project [Week 0 Project A]</a>
+  <br><br>
+  <div>Output<br><img src='degrees/Output1.png'></div>
+  <br>  
+ </div>
+ <hr>
+ 
+ 
 <div id='KandK'>
   <h2><u>Knights</u> : A game of Knights vs Knaves.</h2> <ul><li>Objective: Knights always tell the truth and knaves always lie. Determine who is a knight and who isn't</li></ul>
   <a href='https://github.com/kmkar31/CS50AI/tree/master/knights'>Continue to Project [Week 1 Project A]</a>
