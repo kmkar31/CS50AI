@@ -9,6 +9,13 @@ Projects from CS50AI offered by Harvard
  </div>
  <hr>
  
+ <h2><u>Tic-Tac-Toe</u>: Play a game f Tic Tac Toe against an AI</h2><ul><li>Objective: Use a Minimax Algorithm with to win/draw against a human player</li></ul>
+ <a href='https://github.com/kmkar31/CS50AI/tree/master/tictactoe'>Continue to Project [Week 0 Project B]</a>
+  <br><br>
+  <div>Output<br><img src='tictactoe/g1.png'></div>
+  <br>  
+ </div>
+ <hr> 
  
 <div id='KandK'>
   <h2><u>Knights</u> : A game of Knights vs Knaves.</h2> <ul><li>Objective: Knights always tell the truth and knaves always lie. Determine who is a knight and who isn't</li></ul>
