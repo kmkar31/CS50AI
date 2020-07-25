@@ -24,5 +24,5 @@ Uses a <b>Breadth First Search</b> to recursively check each movie (forming rela
 <br>
 
 ## Outputs:
-![Op1](degrees/Output1.png)
-![Op2](degrees/Output2.png)
+![Op1](Output1.png)
+![Op2](Output2.png)
